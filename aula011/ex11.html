@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NACIONALIDADE</title>
+    <style>
+        body{
+            font: bold 20px Arial;
+            margin-left: 50px;
+        }
+        div#pergunta{
+            margin-top: 70px;
+            margin-left: 30px;
+            color: darkred;
+        }
+        h1{
+            font: bold 50px Arial;
+            color: blue;
+        }
+        input#pais{
+            font: normal 18pt Arial;
+            width: 300px;
+            border: solid 4px purple;
+            margin-left: 15px;
+        }
+        input#button{
+            background-color: rgba(107, 109, 228, 0.932);
+            font: bold 18pt Arial;
+            border: none;
+            width: 20%;
+            height: 35px;
+            border-radius: 5px;
+        }
+        p{
+            font: normal 2em Arial;
+            color: red;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Sistema de verificação</h1>
+    <div id="pergunta">
+        Onde você vive? <input type="text" name="pais" id="pais">
+            <input type="button"id='button' value="Verificar" onclick="verifica()">
+    </div>
+    
+    <div id="resposta"></div>
+
+    <script>
+        function verifica(){
+            var pais = document.querySelector('input#pais')
+            var resposta= document.querySelector('div#resposta')
+            var ver= pais.value
+            if (pais ='BRASIL'){
+                resposta.innerHTML=`<p>Você é <strong>brasileiro</strong></p>`
+            }
+            else{
+                resposta.innerHTML=`<p>Você é <strong>estrangeiro</strong></p>`
+            }
+    }
+    </script>
+</body>
+</html>
