@@ -13,14 +13,15 @@
     </header>
     <section> 
         <div>
-            <label for="num">Número (entre 1 a 100):</label>
-            <input type="number" name="num" id="num">
+            <label for="fnum">Número (entre 1 a 100):</label>
+            <input type="number" name="fnum" id="fnum">
             <button onclick="adicionar()">Adicionar</button>
         </div>
-        <div>
-            <select name="caixa" id="caixa" size="10"></select>
-            <button onclick="verificar()">Finalizar</button>
+        <div id="c2">
+            <select name="flista" id="flista" size="6"></select> 
+            <button onclick="finalizar()" id="bf">Finalizar</button>
         </div>
+        <div id="res"></div>
     </section>
     <footer>
         <p>&copy; CursoemVideo</p>

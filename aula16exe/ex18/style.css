@@ -17,6 +17,16 @@ section{
 
 
 }
+#c2{
+    margin-top: 20px;
+}
+#bf{
+    display: block;
+    margin-top: 10px;
+}
+select{
+    width: 150px;
+}
 footer{
     color: white;
     text-align: center;
