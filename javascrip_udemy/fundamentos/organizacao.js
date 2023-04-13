@@ -14,3 +14,6 @@
 //replaceAll(e, 'E') - substitui tudo
 //split(',') - separa e transforma em array
 //Destructuring - const {nome, idade} = pessoa --> Isso cria duas variaveis (nome e idade) retiradas de um objetgo chamsdo pessoa
+//Math.floor() - Arrendonda para baixo
+
+//Math.random() * (max-min)+min - gera um número dentro de um intervalo (Math.random() - gera números entre 0 e 1)
