@@ -19,4 +19,3 @@ const pessoa = {
 }
 
 pessoa.falar()
-// prox aula 99
