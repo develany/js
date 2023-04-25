@@ -17,4 +17,4 @@ const mult = function mult (x,y){
 }
 console.log(mult (3,4))
 
-//prox 104
+
