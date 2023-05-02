@@ -1,0 +1,14 @@
+console.log(typeof String)
+console.log(typeof Array)
+console.log(typeof Object)
+
+String.prototype.reverse = function(){ //Aqui foi criada uma funçao dentro do prototipo da funçao String
+    return this.split('').reverse().join('')
+}
+
+console.log('Escola Cod3r'.reverse())
+
+Array.prototype.first = function(){
+    return this [0]
+}
+console.log([1, 2, 3, 4 , 5].first())

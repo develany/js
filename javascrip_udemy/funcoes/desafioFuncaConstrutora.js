@@ -7,4 +7,3 @@ function Pessoa(nome){
 const p1 =new Pessoa ('elany')
 p1.falar()
 
-//prox110
